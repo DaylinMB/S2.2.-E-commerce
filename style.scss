@@ -1,9 +1,68 @@
-.btn.btn {
-    &:hover {
-        background-color: rgb(4, 87, 170);
-        border-color: rgb(4, 87, 170);
-    }
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    line-height: 1.5;
+}
+
+a.navbar-brand {
+    color:rgb(88, 61, 61) !important;
+}
+
+a.nav-link {
+    color:rgb(88, 61, 61) !important;
+}
+
+h2 {
+    color: rgb(88, 61, 61) !important;
+}
+
+header.bg-dark {
+    background-color: rgb(237, 102, 104) !important;
+}
+
+footer.bg-dark {
+    background-color: rgb(237, 102, 104) !important;
 }
 
 
-@import "./node_modules/bootstrap/scss/bootstrap";
+.btn.btn {
+  
+    &:hover {
+        background-color: rgb(237, 102, 104);
+        border-color: rgb(237, 102, 104);
+    }
+}
+
+a.btn.btn-primary {
+    color: rgb(88, 61, 61);
+    border-color: rgb(88, 61, 61);
+    background-color: white;
+    
+    &:hover {
+        color: white;
+        background-color: rgb(237, 102, 104);
+        border-color: rgb(237, 102, 104);
+    }
+}
+
+button.btn.btn-primary  {
+    color: rgb(88, 61, 61);
+    border-color: rgb(88, 61, 61);
+    background-color: white;
+    
+    &:hover {
+        color: white;
+        background-color: rgb(237, 102, 104);
+        border-color: rgb(237, 102, 104);
+    }
+}
+
+.btn.submit {
+    background-color: black !important;
+}
+
